@@ -1,0 +1,25 @@
+    1  sudo apt-get update
+    2  sudo apt-get install mysql-server
+    3  clear
+    4  mysql -u root -p root
+    5  mysql -u root -p
+    6  sudo apt-get php
+    7  sudo apt-get install php
+    8  sudo apt-get install git
+    9  s
+   10  ls
+   11  cd it635
+   12  git init
+   13  git status
+   14  mysql dump -u root -p
+   15  mysql dump -u root -p > backup.sql
+   16  mysql dump -u root -p Classes > backup.sql
+   17  mysqldump -u root -p Classes > backup.sql
+   18  cat backup.sql 
+   19  git add backup.sql 
+   20  git status 
+   21  git rm --cache backup.sql 
+   22  git status
+   23  git add backup.sql
+   24  git status
+   25  history > history.txt
